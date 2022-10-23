@@ -6,5 +6,8 @@ public class reverse {
 		
 		StringBuffer sr = new StringBuffer("Tajamul");
 		System.out.println(sr.reverse());
+		String name= ("Tajamul");
+		System.out.println(name.length());
+
 	}
 }

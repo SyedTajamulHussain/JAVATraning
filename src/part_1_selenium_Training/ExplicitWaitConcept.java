@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class ExplicitWaitConcept {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Automation Software\\webdrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\AutomationSoftware\\selenium-java-4.5.2\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
